@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_color"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvTituloPrin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Proyecto Final"
+        android:textAlignment="center"
+        android:textColor="#E81919"
+        android:textSize="60sp" />
+
+    <TextView
+        android:id="@+id/tvDescPrin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="1sp"
+        android:text="Elija un boton para iniciar:\n	*Calculadora: calculadora grafica con operaciones basicas\n	*Bolita: app grafica con esfera desplazable en horizonta\n	*Galeria: vozualizador de imagenes intercambiables\n"
+        android:textColor="#000000"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/btCalculadora"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:backgroundTint="#03A9F4"
+        android:onClick="llamarCalculadora"
+        android:text="Calculadora"
+        android:textSize="34sp" />
+
+
+    <Button
+        android:id="@+id/btbolita"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="#2196F3"
+        android:onClick="llamarBolita"
+        android:text="Bolita"
+        android:textSize="34sp" />
+
+    <Button
+        android:id="@+id/btGaleria"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="#2196F3"
+        android:onClick="llamarGaleria"
+        android:text="Galeria"
+        android:textSize="34sp" />
+
+</LinearLayout>
